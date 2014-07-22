@@ -1,0 +1,153 @@
+﻿        html,body {margin:0px;
+                   height:100%;
+                   width:100%;
+                   background-image: url("../images/bark1.jpg");
+                   background-attachment:fixed;
+                   background-size: cover;
+        }
+        h1,h2,h3,h4 {font-family:'utsaahbold';
+                     padding-top:0px;
+                     margin-top:0px;
+                     padding-bottom:0px;
+                     margin-bottom:.5em;
+        }
+        .col3 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+        .header {
+            position: fixed;
+            top:0%;
+            left:0px;
+            width:100%;
+            height:20%;
+            background-color: hsla(30,10%,20%,.8);
+            color:hsla(0,0%,100%,.9);
+        }
+        .headerContent {
+            position:relative;
+            width:800px;
+            margin-left:auto;
+            margin-right:auto;
+            height:10%;
+            padding:1% 0% 2% 0%;
+        }
+
+        .wrapper {
+            position:absolute;
+            top:20%;
+            height:70%;
+            width:100%;
+                  
+        }
+        .content {
+            font-family:'dejavu_serifbook' ;
+            width:800px;
+            padding-left:5%;
+                  height: 100%;
+                  margin-left:auto;
+                  margin-right:auto;
+                  overflow-x:hidden;
+                  /*background-color: hsla(210,20%,95%,.1);*/
+                  color: hsla(0,0%,100%,1);
+                  font-size: 1.2em;
+        }
+        .content h3 {font-size:2em;
+                     margin-top:1.5em;
+                     color: hsla(210,20%,80%,1);
+                     text-transform:uppercase;
+        }
+        .content a {
+            color: hsla(30,86%,49%,1);
+        }
+        .footer {
+            position: fixed;
+            top:90%;
+            left:0px;
+            width:100%;
+            height:10%;
+            background-color: hsla(0,10%,90%,.9);
+            color:hsla(0,0%,0%,1);
+            font-family:'utsaahregular';
+
+        }
+        .footerContent {
+            width:800px;
+            margin-left:auto;
+            margin-right:auto;
+            height:10%;
+            padding-top:1%;
+            text-align:center;
+        }
+        .footerContent a { color:hsla(0,0%,0%,1);
+
+        }
+.FFloat {float:left;width:30%;text-align:center;
+         height: 2em;
+         padding-top:.2em;
+         border-top: 1px solid hsla(0,0%,0%,1);
+         border-bottom: 1px solid hsla(0,0%,0%,1);
+         /*border:1px 0px 1px 0px;*/
+}
+.menu {position:absolute;
+            top:130%;
+            left:0%;
+            width:100%;
+            /*border: 1px solid white;*/
+        }
+.menuFloat {float:right;
+             margin-right: 20px;
+            padding:3px;
+           font-family:'utsaahbold';
+           cursor:pointer;
+           font-weight:bold;
+           font-size: 1.5em;
+          border-top:2px solid hsla(0,0%,0%,0);
+           text-transform:lowercase;
+           -webkit-transition:all .5s ease-out;
+           -moz-transition: all .5s ease-out;
+           -o-transition: all .5s ease-out;
+           transition: all  .5s ease-out;
+        }
+.menuFloat:hover{
+            /*background-color: hsla(0,0%,0%,.5);*/
+            border-top:2px solid hsla(30,86%,49%,1);
+            color: hsla(30,86%,49%,1);
+        }
+        .float2 {float:left;width:48%;height:100%;
+
+        }
+        .w720 {width:750px;}
+        .status {
+            width:100%;
+            margin-left:7%;
+            font-family:  'dejavu_serifCnBdIt';
+            font-size:.6em;
+            float:left;
+        }
+        .thankyou {font-family: 'utsaahbold_italic';
+                   font-size:1.5em;
+        }
+        .noshow {
+            display:none;
+            visibility:hidden;
+        }
+.addy
+{border:none;
+ background-color:hsla(340,10%,80%,1);
+ font-size:1em;
+ width:12em;
+}
+.emaillistButton {height:2.3em;width:12em;
+                  background-image: url("../images/signmeup.png");
+                  background-size:cover;
+}
+.emaillistButton:hover { 
+                  background-image: url("../images/signmeup-on.png");
+                  background-size:cover;
+}
+.emaillistImg    {height:2em;width:12em;left:-10px;}
